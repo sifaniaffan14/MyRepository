@@ -31,6 +31,7 @@ jobs:
 
       - name: Install and Build 🔧 # Build the Project
         run: |
+          npm install react-scripts --save
           npm install
           npm run build
       - name: Deploy 🚀
